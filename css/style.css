@@ -1,0 +1,95 @@
+/* ESTILOS DEL MENU DE NAVEGACION DESPLEGABLE */
+
+body{
+    margin: 0;
+    border: 0;
+    font-family: fantasy;
+}
+
+/* Estilo al fondo del menu con opacidad */
+#background{
+    background-color: rgba(233, 181, 157, 0.904);
+    border-radius: 10px;
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    position:fixed;
+}
+
+#background img{
+    width: 15px;
+}
+
+/* Boton que controla el despliegue de pestaña */
+#action{
+    background-color: rgba(119, 91, 91, 0.45);
+    border-radius: 7px ;
+    cursor: pointer;
+    height: 100%;
+    visibility: visible;
+    border-style: none;
+}
+
+/* Modificacion de elementos generales del menu */
+.menu{
+    width: 100%;
+    font-size: 30px;
+    font-family: fantasy;
+    list-style: none;
+    padding: 10px, 0, 0, 10px;
+}
+
+/*Modificacion de los links del menu de navegacion*/
+.menu a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10%;
+    
+}
+
+/* Estilo al pasar el puntero */
+.menu a:hover{
+    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* --------------------------------- */
+
+
+.body{
+    margin: 0;
+    border: 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.body h1{
+    font-size: 30px;
+    margin: 0;
+}
+
+.general{
+    margin-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+
+    iframe{
+        width: 80%;
+        height: 600px;
+    }
+
+}
+
+#image{
+    width: 50%;
+    margin-left: 10%;
+}
+
+#video{
+    margin-left: 100px;
+    justify-content: center;
+}
